@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	cchar ls;
+	char lc;
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
