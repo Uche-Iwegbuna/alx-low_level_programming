@@ -5,7 +5,7 @@
  * @s: input
  * Return: string in reverse
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char rv = s[0];
 	int c = 0;
