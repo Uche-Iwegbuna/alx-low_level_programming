@@ -2,7 +2,8 @@
 
 /**
  * cap_string - capitalizes words
- * @str: string
+ * @str: string to be capitalized
+ *
  * Return: pointer to string
  */
 char *cap_string(char *str)
@@ -13,6 +14,7 @@ char *cap_string(char *str)
 	{
 		while (!(str[i] >= 'a' && str[i] <= 'z'))
 			i++;
+			
 		if (str[i - 1] == ' ' ||
 				str[i - 1] == '\t' ||
 				str[i - 1] == '\n' ||
@@ -28,8 +30,13 @@ char *cap_string(char *str)
 				str[i - 1] == '}' ||
 				i == 0)
 			str[i] -= 32;
+<<<<<<< HEAD
 
 		i++;
+=======
+			
+			i++;
+>>>>>>> bac96fa0424e17a35cb67968daff11e45e290ef5
 	}
 
 	return (str);
