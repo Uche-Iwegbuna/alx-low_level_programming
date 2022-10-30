@@ -30,13 +30,7 @@ char *cap_string(char *str)
 				str[i - 1] == '}' ||
 				i == 0)
 			str[i] -= 32;
-<<<<<<< HEAD
-
 		i++;
-=======
-			
-			i++;
->>>>>>> bac96fa0424e17a35cb67968daff11e45e290ef5
 	}
 
 	return (str);
