@@ -5,7 +5,7 @@
  * *@s: adress to be filled
  * *@b: desired value
  * *@n: number of byte to be changed
- * Return: change array of n bytes with new values
+ * Return: Always 0
  */
 char *_memset(char *s, char b, unsigned int n)
 {

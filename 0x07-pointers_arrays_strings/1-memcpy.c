@@ -4,7 +4,7 @@
  * @deat: memory source
  * @src: memory destination
  * @n: number of bytes
- * Return: copied memroy with n bytes changed
+ * Return: Always 0
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
